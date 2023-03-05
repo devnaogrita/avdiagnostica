@@ -1,0 +1,41 @@
+*, body {
+    text-align: center;
+    font-family: Roboto, 'sans-serif';
+}
+body {
+    background-color: #e1e1e1;
+    color:#313131;
+}
+h1, h2 {
+    margin:0;
+    font-weight: 900;
+}
+p, ul li {
+    text-align: left;
+}
+li {
+    list-style-type: circle;
+    margin:10px 0;
+    font-size: 14px;
+}
+span {
+    font-size: 24px;
+    font-weight:400;
+    margin:0;
+    color:#313131;
+}
+section {
+    background-color: white;
+    border-radius: 20px;
+    margin:1.5% 10%;
+}
+header {
+    position: relative;
+    margin-bottom: 50px;
+}
+@media only screen and (max-width: 768px) {
+    section {
+        padding: 50px 10px;
+    }
+}
+
